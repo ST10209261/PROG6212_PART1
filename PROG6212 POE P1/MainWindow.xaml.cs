@@ -29,7 +29,7 @@ namespace CMCS
             txtClaimStatus.Text = "Claim approved.";
         }
 
-        // Reject Claim button click event
+        // Reject Claim button click event.
         private void RejectClaim_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Claim Rejected.", "Reject", MessageBoxButton.OK, MessageBoxImage.Warning);
