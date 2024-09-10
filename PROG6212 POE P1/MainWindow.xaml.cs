@@ -16,7 +16,7 @@ namespace CMCS
             txtClaimStatus.Text = "Claim submitted and pending approval.";
         }
 
-        // Upload Documents button click event
+        // Upload Documents button click event.
         private void UploadDocs_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Documents Uploaded Successfully!", "Upload", MessageBoxButton.OK, MessageBoxImage.Information);
