@@ -3,6 +3,30 @@
 Contract Monthly Claim System (CMCS) Overview:
 The Contract Monthly Claim System (CMCS) is a web-based application designed to manage and process contract claims. The system provides a user-friendly interface for submitting claims, uploading supporting documents, and managing claim approvals or rejections.
 
+Features
+Dashboard: Overview of active contracts, claims, and payments.
+Contract Management: Create, view, and edit contract details.
+Claim Submission: Submit new claims, view existing claims, and track claim status.
+Payment Processing: Record and track payments related to claims.
+
+Prerequisites
+.NET Core 6.0 or later (for running the application)
+Visual Studio 2024 or later (for development and debugging)
+
+Installation
+Clone the Repository
+
+Copy code
+git clone https://github.com/yourusername/cmcs-wpf.git
+Open the Project
+
+Launch Visual Studio.
+Open the solution file CMCS.sln located in the root of the cloned repository.
+Restore Dependencies
+
+In Visual Studio, right-click on the solution in Solution Explorer and select Restore NuGet Packages.
+Build and Run
+Press F5 or click Start in Visual Studio to build and run the application.
 
 Main Interface:
 
@@ -27,10 +51,6 @@ Reject Claim Button
 Function: Allows the Programme Coordinator/Academic Manager to reject a claim.
 Usage: Click this button to reject the claim after evaluation.
 Installation and Setup
-
-Prerequisites:
-Ensure you have the latest version of .NET Core installed.
-A compatible database server (e.g., SQL Server) should be set up and configured. 
 
 Usage
 Submitting a Claim:
