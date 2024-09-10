@@ -22,7 +22,7 @@ namespace CMCS
             MessageBox.Show("Documents Uploaded Successfully!", "Upload", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
-        // Approve Claim button click event
+        // Approve Claim button click event.
         private void ApproveClaim_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Claim Approved.", "Approve", MessageBoxButton.OK, MessageBoxImage.Information);
