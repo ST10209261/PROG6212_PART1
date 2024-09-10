@@ -1,0 +1,14 @@
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\bin\Debug\PROG6212 POE P1.exe.config
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\bin\Debug\PROG6212 POE P1.exe
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\bin\Debug\PROG6212 POE P1.pdb
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\PROG6212 POE P1.csproj.AssemblyReference.cache
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\MainWindow.baml
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\MainWindow.g.cs
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\App.g.cs
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\PROG6212 POE P1_MarkupCompile.cache
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\PROG6212 POE P1.g.resources
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\PROG6212_POE_P1.Properties.Resources.resources
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\PROG6212 POE P1.csproj.GenerateResource.cache
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\PROG6212 POE P1.csproj.CoreCompileInputs.cache
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\PROG6212 POE P1.exe
+C:\Users\FUMOGP\Desktop\PROG6212 POE P1\obj\Debug\PROG6212 POE P1.pdb

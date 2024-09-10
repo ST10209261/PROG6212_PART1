@@ -1,0 +1,41 @@
+﻿<Window x:Class="CMCS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Contract Monthly Claim System" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" FontSize="24" FontWeight="Bold" Margin="10">
+            Contract Monthly Claim System (CMCS)
+        </TextBlock>
+
+        <!-- Main Content -->
+        <StackPanel Grid.Row="1" Margin="20">
+            <!-- Submit Claim Button -->
+            <Button x:Name="btnSubmitClaim" Content="Submit Claim" Width="200" Height="40" Click="SubmitClaim_Click" HorizontalAlignment="Center" Margin="10"/>
+
+            <!-- Upload Supporting Documents -->
+            <StackPanel Margin="10">
+                <Label>Upload Supporting Documents:</Label>
+                <Button x:Name="btnUploadDocs" Content="Upload Documents" Width="200" Height="40" Click="UploadDocs_Click"/>
+            </StackPanel>
+
+            <!-- Claim Status Tracking -->
+            <StackPanel Margin="10">
+                <Label>Track Claim Status:</Label>
+                <TextBox x:Name="txtClaimStatus" Width="400" Height="30" IsReadOnly="True" Text="No claim submitted."/>
+            </StackPanel>
+
+            <!-- Approve/Reject Claims Section for Coordinators/Managers -->
+            <StackPanel Margin="10">
+                <Label>Programme Coordinator/Academic Manager - Approve/Reject Claims:</Label>
+                <Button x:Name="btnApprove" Content="Approve Claim" Width="150" Height="40" Click="ApproveClaim_Click" Margin="5"/>
+                <Button x:Name="btnReject" Content="Reject Claim" Width="150" Height="40" Click="RejectClaim_Click" Margin="5"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
