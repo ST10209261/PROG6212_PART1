@@ -9,7 +9,7 @@ namespace CMCS
             InitializeComponent();
         }
 
-        // Submit Claim button click event
+        // Submit Claim button click event.
         private void SubmitClaim_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Claim Submitted Successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
